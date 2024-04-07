@@ -1,0 +1,38 @@
+main {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 20px;
+    background-color: lightblue;
+}
+
+article {
+    margin-bottom: 30px;
+}
+
+article img {
+    width: 100%;
+    max-width: 500px;
+    height: auto;
+    border: 5px solid #ff6a00;
+}
+
+li {
+    margin-bottom: 10px;
+}
+
+footer {
+    background-color: lightblue;
+    padding: 20px;
+    text-align: center;
+}
+
+header {
+    display: flex;
+    width: 100vw;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    background-color: #989797;
+    color: black;
+}

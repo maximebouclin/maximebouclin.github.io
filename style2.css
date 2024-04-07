@@ -1,0 +1,45 @@
+main {
+    display: flex;
+    justify-content: space-between;
+    justify-items: center;
+    flex-wrap: nowrap;
+}
+main article{
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    margin: 3%;
+}
+img, iframe{
+    border: 5px solid #ff6a00;
+    margin: 1% 1% 1% 1%;
+    padding: 1% 1% 1% 1%;
+}
+@media (max-width : 900px){
+    main{
+        flex-wrap: wrap;
+    }
+}
+a:hover {
+    color:orange;
+}
+* {
+    background-color: lightblue;
+}
+header {
+    display: flex;
+    width: 100vw;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    background-color: #989797;
+    color: black;
+}
+nav, h1, nav p, nav a{
+    background-color:#989797;
+}
+nav a:hover {
+    color: #ff6a00;
+}

@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <link rel="icon" type="image/x-icon" href="images/bigM.jpg">
+    <title>Maxime Bouclin</title>
+    <link rel="stylesheet" href="style3.css">
+    <meta name="viewport" content="width=device-width initial-scale = 1.0">
+</head>
+<body>
+<header>
+    <h1>Maxime Bouclin</h1>
+    <nav>
+        <p>
+            <a href="index.html">Home</a> |
+            <a href="projects.html">Projects</a> |
+            <a href="contact.html">Contact</a>
+        </p>
+    </nav>
+</header>
+
+<main>
+    <article>
+        <img src = "images/contact_us.jpg" atl="image that says contact us" height = 150 width = "500">
+    </article>
+    <article>
+        <ul>
+            <li>Email : maxbouclin@gmail.com</li>
+            <li>Social media:
+                <ol>
+                    <li>Linkedin : <a href="https://www.linkedin.com/in/maxime-bouclin-9a2814293/">https://www.linkedin.com/in/maxime-bouclin-9a2814293/</a></li>
+                    <li>Instagram : <a href="https://www.instagram.com/max_bouclin/">https://www.instagram.com/max_bouclin/</a></li>
+                </ol>
+            </li>
+        </ul>
+    </article>
+    <article>
+        <form id="sign-up-form" action="#" onsubmit="return validateForm(event)">
+            <h2>Leave me a message</h2>
+            <div class="input-container">
+                <label for="name">Name:</label>
+                <input type="text" id="name" name="name"/>
+            </div>
+            <div class="input-container">
+                <label for="email">Email:</label>
+                <input type="email" id="email" name="email"/>
+            </div>
+            <div class="input-container">
+                <label for="favorite-animal">Favorite Animal:</label>
+                <input type="text" id="favorite-animal" name="favorite-animal"/>
+            </div>
+            <div class="input-container">
+                <label for="agreeTerms">I agree to the terms:</label>
+                <input type="checkbox" id="agreeTerms" name="agreeTerms"/>
+            </div>
+            <div class="input-container">
+                <label for="message">Message:</label>
+                <textarea id="message" name="message"></textarea>
+            </div>
+            <div class="button-container">
+                <input id="submit-button" type="submit" value="Sign up" onclick="validateForm()"/>
+            </div>
+
+            <div id="message-panel">
+            </div>
+        </form>
+    </article>
+
+</main>
+
+<footer>
+    <hr>
+    <p>Site created by Maxime Bouclin. 2024</p>
+</footer>
+</body>
+<script src="contact.js"></script>
+</html>
